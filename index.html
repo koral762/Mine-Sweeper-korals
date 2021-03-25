@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper-Koral</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+
+        
+    <h>☁✨☁✨☁Mine Sweeper☁✨☁✨☁</h>
+    <button class="button" onclick="startGame(this)" >Beginner</button>
+    <button class="button" onclick="startGame(this)" >Medium</button>
+    <button class="button" onclick="startGame(this)" >Expert</button>
+    <br></br>
+    <button class="button buttonSc"onclick="startGame(this)" ><span>🙂</span></button>
+    <button class="button buttonTime">Time:<span></span></button>
+    <button class="button buttonTime bombs">💣:<span>2</span></button>
+    <table class="center" border="2" cellpadding="10">
+        
+        <tbody class="board"></tbody>
+
+    </table>
+    <div class="lives" id="1" style="display: inline"></div>
+    <div class="lives" id="2" style="display: inline"></div>
+    <div class="lives" id="3" style="display: inline"></div>
+    
+    <br></br>
+
+    <div class="hints" id="4" style="display: inline" onclick="hints(this)"></div>
+    <div class="hints" id="5" style="display: inline" onclick="hints(this)"></div>
+    <div class="hints" id="6" style="display: inline" onclick="hints(this)"></div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

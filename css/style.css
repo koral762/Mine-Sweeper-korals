@@ -1,0 +1,87 @@
+
+
+body{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/ef/9d/1a/ef9d1a5386d76e1a202034b3c1e92117.png);
+}
+
+
+h{
+    display: block;
+    color: rgb(255, 0, 149);
+    font-size:xx-large;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.board {
+    background-color: rgb(240, 133, 195);
+}
+
+.center {
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.board td{
+    width: 20px;
+    height: 20px;
+    color:white;
+}
+
+.button{
+    display: inline;
+    color:black;
+    background-color: rgb(78, 192, 221);
+    text-align: center;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 5px;
+    border-radius: 30px;
+    padding: 5px 5px;
+}
+
+.buttonSc{
+    background-color: rgb(241, 240, 126);
+    border-radius: 30px;
+}
+
+.buttonTime{
+    background-color: rgb(241, 240, 126);
+    border-radius: 30px;
+    
+}
+
+.lives{
+    margin-top:10px;
+    font-size:xx-large;
+    
+}
+
+.hints{
+    
+    font-size:x-large;
+
+}
+
+
+.mine {
+
+    visibility:hidden;
+}
+
+.marked{
+
+    background-color: rgb(245, 177, 217);
+    
+    
+}
+
+.boom{
+    
+    background-color: rgb(236, 70, 78);
+
+}
+
+
